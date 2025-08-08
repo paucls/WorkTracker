@@ -33,7 +33,7 @@ class MainActivity : ComponentActivity() {
                         .fillMaxSize()
                         .padding(16.dp)
                 ) {
-                    Greeting(name = "John Joe")
+                    Greeting(name = "Jose Maria")
                     Spacer(modifier = Modifier.height(16.dp))
                     LogHoursForm()
                 }
