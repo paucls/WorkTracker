@@ -51,7 +51,7 @@ fun LogHoursForm() {
             value = timeOut,
             onValueChange = {
                 if (it.all { it.isDigit() || it == ':' }) {
-                    timeIn = it
+                    timeOut = it
                 }
             },
             label = { Text("Time Out") }
