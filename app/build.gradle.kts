@@ -58,6 +58,8 @@ dependencies {
     debugImplementation(libs.androidx.ui.tooling)
     debugImplementation(libs.androidx.ui.test.manifest)
 
+    implementation(libs.androidx.lifecycle.viewmodel.compose)
+
     // Room
     implementation(libs.androidx.room.runtime) // Core Room library
     implementation(libs.androidx.room.ktx)     // Kotlin Extensions and Coroutines support for Room
